@@ -1,0 +1,16 @@
+public class perimeterOfCircle {
+
+	
+
+	public static void main(String[] args) {
+		
+		double pi = 3.14;
+		double radius = 5.00;
+		
+		double setPerimeter;
+		System.out.println("the perimeter = "+(setPerimeter =(radius * radius)* pi));
+		
+
+	}
+
+}
