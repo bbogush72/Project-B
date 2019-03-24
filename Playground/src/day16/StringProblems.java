@@ -28,6 +28,16 @@ public class StringProblems {
 		
 		System.out.println(str.contains("Java"));
 		System.out.println(str.indexOf("Java")>-1);
+		
+		int indexOfFirstSpace = str.indexOf(" ");
+		
+		System.out.println(indexOfFirstSpace);
+		
+		System.out.println(str.substring(indexOfFirstSpace));
+		
+		String word2 = str.substring(indexOfFirstSpace+1, indexOfFirstSpace+3);
+		
+		System.out.println(word2);
 	}
 
 }
